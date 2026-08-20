@@ -19,24 +19,21 @@ void hanoiIterative(int totalDisks, char source, char destination, char auxiliar
 		}else{
 			if(current.n==1){
 				cout<<"Move disk"<<current.n<<"from"<<current.src<<"to"<<current.dest<<endl;
-			} else {
-           		 // Base case: only one disk, print directly
-	           		 if (current.n == 1) {
-        	       			 cout << "Move disk 1 from " << current.src << " to " << current.dest << endl;
-           			 } else {
-               				 // Push tasks to the stack in REVERSE order of execution
+			}
+			else {
+           			// Base case: only one disk, print directly
+               		// Push tasks to the stack in REVERSE order of execution
                 
-               				 // 3. Move n-1 disks from auxiliary to destination
-               				 s.push({false, current.n - 1, current.aux, current.dest, current.src});
+               		// 3. Move n-1 disks from auxiliary to destination
+               		s.push({false, current.n - 1, current.aux, current.dest, current.src});
                 
 			                // 2. Move the largest disk from source to destination
-               				 s.push({true, current.n, current.src, current.dest, current.aux});
+               		s.push({true, current.n, current.src, current.dest, current.aux});
                 
 			                // 1. Move n-1 disks from source to auxiliary
-               				 s.push({false, current.n - 1, current.src, current.aux, current.dest});
-           			 }
-       			 }
-   		 }
+               		s.push({false, current.n - 1, current.src, current.aux, current.dest});
+           	}
+    	}
 	}
 }
 int main() {
