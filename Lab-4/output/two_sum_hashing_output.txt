@@ -1,0 +1,1 @@
+Enter number of elements: Enter 6 array elements: Enter target value: A pair with sum 16 exists.

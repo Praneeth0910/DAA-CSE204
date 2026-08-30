@@ -1,0 +1,48 @@
+Enter hash table size (a prime number is recommended): 
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: Enter key: Inserted 10 at index 0.
+
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: Enter key: Inserted 20 at index 1.
+
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: Enter key: Inserted 30 at index 4.
+
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: Enter key: Key 20 found at index 1.
+
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: 
+Index	Value
+0	10
+1	20
+2	<empty>
+3	<empty>
+4	30
+
+1. Insert
+2. Search
+3. Delete
+4. Display
+5. Exit
+Choose an option: Goodbye.
