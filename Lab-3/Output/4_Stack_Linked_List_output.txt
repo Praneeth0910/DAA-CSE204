@@ -1,0 +1,31 @@
+======================================
+     STACK USING LINKED LIST
+======================================
+
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: Enter value to push: 10 pushed into the stack.
+
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: Enter value to push: 20 pushed into the stack.
+
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: Stack elements: 20 10 
+
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: Exiting...

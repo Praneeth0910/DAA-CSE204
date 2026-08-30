@@ -1,0 +1,38 @@
+======================================
+     QUEUE USING LINKED LIST
+======================================
+
+1. Enqueue
+2. Dequeue
+3. Front
+4. Display
+5. Exit
+Enter your choice: Enter value to enqueue: 10 enqueued into the queue.
+
+1. Enqueue
+2. Dequeue
+3. Front
+4. Display
+5. Exit
+Enter your choice: Enter value to enqueue: 20 enqueued into the queue.
+
+1. Enqueue
+2. Dequeue
+3. Front
+4. Display
+5. Exit
+Enter your choice: Enter value to enqueue: 30 enqueued into the queue.
+
+1. Enqueue
+2. Dequeue
+3. Front
+4. Display
+5. Exit
+Enter your choice: Queue elements: 10 20 30 
+
+1. Enqueue
+2. Dequeue
+3. Front
+4. Display
+5. Exit
+Enter your choice: Exiting...
