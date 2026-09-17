@@ -1,3 +1,4 @@
+#include <climits>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -6,13 +7,13 @@ using namespace std;
 // minimum key value, from the set of vertices
 // not yet included in MST
 int minKey(vector<int> &key, vector<bool> &mstSet) {
-  
     // Initialize min value
-    int min = INT_MAX, min_index;
+    int min = INT_MAX;
+    int min_index = -1;
 
-    for (int v = 0; v < mstSet.size(); v++)
+    for (size_t v = 0; v < mstSet.size(); v++)
         if (mstSet[v] == false && key[v] < min)
-            min = key[v], min_index = v;
+            min = key[v], min_index = static_cast<int>(v);
 
     return min_index;
 }
@@ -21,7 +22,7 @@ int minKey(vector<int> &key, vector<bool> &mstSet) {
 // constructed MST stored in parent[]
 void printMST(vector<int> &parent, vector<vector<int>> &graph) {
     cout << "Edge \tWeight\n";
-    for (int i = 1; i < graph.size(); i++)
+    for (size_t i = 1; i < graph.size(); i++)
         cout << parent[i] << " - " << i << " \t"
              << graph[parent[i]][i] << " \n";
 }
