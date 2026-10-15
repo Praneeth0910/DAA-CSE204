@@ -1,0 +1,24 @@
+Huffman construction steps (frequencies are in hundreds):
+Combine 2 and 2 -> 4
+Combine 4 and 8 -> 12
+Combine 10 and 10 -> 20
+Combine 11 and 12 -> 23
+Combine 15 and 20 -> 35
+Combine 20 and 22 -> 42
+Combine 23 and 35 -> 58
+Combine 42 and 58 -> 100
+
+Huffman encoding table:
+Letter	Frequency	Code	Bits for listed counts
+a	20		111	60
+c	11		100	33
+d	2		10100	10
+e	10		000	30
+m	8		1011	32
+o	15		110	45
+s	10		001	30
+t	22		01	44
+u	2		10101	10
+
+Weighted cost for the listed counts: 294 bits per 100-count block
+Actual encoded file size: 29400 bits = 3675 bytes (3.675 KB, 3.589 KiB)
